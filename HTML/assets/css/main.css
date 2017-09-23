@@ -10484,6 +10484,7 @@ footer:after {
 .footer-quote-01 .content {
   border-bottom: 1px solid #dddddd;
   padding-bottom: 25px;
+  size: 40%;
 }
 .footer-quote-01 .content a {
   text-align: center;
