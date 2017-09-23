@@ -1,0 +1,38 @@
+include mixin/mixin
+doctype html
+html.no-js
+    head
+        meta(charset='utf-8')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        title OSTheme
+        meta(name='description', content='Aqua | Spa and Beauty HTML5 Template')
+        meta(name='viewport', content='width=device-width, initial-scale=1')
+        +favicon
+        //Plugin stylesheet
+        link(rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css")
+        link(rel="stylesheet" href="assets/fonts/wolverine/styles.css")
+        //Main stylesheet
+        link(rel="stylesheet" href="assets/css/main.css")
+        //Modernizr js
+        script(src="vendors/modernizr/modernizr-2.8.3-respond-1.4.2.min.js")
+    body
+        <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        block before-main
+        main.main.clearfix
+            //site header
+            block header
+            //end site header
+            block main
+                .container
+                    p Hello! Welcome to Royal Theme!
+            //site footer
+            block footer
+            //end site footer
+
+        block modal
+        block after-main
+        script(src="vendors/jquery/jquery-1.11.2.min.js")
+        script(src="vendors/bootstrap/bootstrap.min.js")
+        script (function(b,o,i,l,e,r){b.GoogleAsnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create','UA-57387972-1');ga('send','pageview');

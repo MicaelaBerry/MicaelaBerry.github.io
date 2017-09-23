@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.less","main.css"],"names":[],"mappings":"AAEA;EACE,0BAAA;CCDD","file":"main.css","sourcesContent":["@import 'component/typo';\r\n@import 'component/util';\r\nbody{\r\n  background-color: #abcabc;\r\n}","body {\n  background-color: #abcabc;\n}\n"],"sourceRoot":"/source/"}

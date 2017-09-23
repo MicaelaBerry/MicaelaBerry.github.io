@@ -1,0 +1,2 @@
+TYPE THIS COMAND IN CMD TO UNINSTALL NODE-MODULE
+npm uninstall browser-sync gulp gulp-autoprefixer gulp-changed gulp-jade gulp-less gulp-sourcemaps gulp-sourcemaps gulp-util node-notifier
