@@ -321,41 +321,8 @@
                   </div>
                 </div>
               </div>
-<?php
-$action=$_REQUEST['action'];
-if ($action=="")    /* display the contact form */
-    {
-    ?>
-    <form  action="" method="POST" enctype="multipart/form-data">
-    <input type="hidden" name="action" value="submit">
-    Your name:<br>
-    <input name="name" type="text" value="" size="30"/><br>
-    Your email:<br>
-    <input name="email" type="text" value="" size="30"/><br>
-    Your message:<br>
-    <textarea name="message" rows="7" cols="30"></textarea><br>
-    <input type="submit" value="Send email"/>
-    </form>
-    <?php
-    } 
-else                /* send the submitted data */
-    {
-    $name=$_REQUEST['name'];
-    $email=$_REQUEST['email'];
-    $message=$_REQUEST['message'];
-    if (($name=="")||($email=="")||($message==""))
-        {
-        echo "All fields are required, please fill <a href=\"\">the form</a> again.";
-        }
-    else{        
-        $from="From: $name<$email>\r\nReturn-path: $email";
-        $subject="Message sent using your contact form GitHub";
-        mail("msberry9@gmailcom", $subject, $message, $from);
-        echo "Email sent!";
-        }
-    }  
-?>
-<!--               <div class="col-md-offset-30 col-md-4 col-sm-8 col-sm-offset-2 col-xs-12">
+
+              <div class="col-md-offset-30 col-md-4 col-sm-8 col-sm-offset-2 col-xs-12">
                 <h5>CONTACT ME</h5>
                 <div class="widget contact-us">
                   <form id="contact_form">
@@ -365,7 +332,7 @@ else                /* send the submitted data */
                     <button type="submit" class="normal-btn normal-btn-main btn-size-5">SUBMIT</button>
                   </form>
                 </div>
-              </div> -->
+              </div>
             </div>
           </div>
           <div class="footer-foot text-center">
