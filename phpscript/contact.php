@@ -1,11 +1,11 @@
 <?php
 // EDIT A LINE BELOW AS REQUIRED
 
-$email_to = "osthemes2015@gmail.com";
+$email_to = "msberry9@gmail.com";
 
 // CUSTOME YOUR EMAIL SUBJECT
 
-$email_subject = "Contact From Wolverine";
+$email_subject = "Contact From GitHub website";
 
 // COMPONENT FUNCTION
 /**
