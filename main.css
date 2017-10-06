@@ -1236,7 +1236,7 @@ input:-webkit-autofill {
   padding: 14px 58px;
 }
 .normal-btn.btn-size-5 {
-  padding: 14px 38px;
+  padding: 14px 38px; /*blah*/
 }
 .normal-btn.btn-size-6 {
   padding: 10px 18px;
